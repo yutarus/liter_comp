@@ -23,12 +23,14 @@ function VacancyItem({ vacancy }: VacacyProps) {
 				</div>
 			</div>
 			<p className='item__title'>{vacancy.title}</p>
-			<ul className='items__terms'>
+			<ul className='items__terms manropeFont'>
 				<li>{vacancy.salary}</li>
 				<li>{vacancy.amountWork}</li>
 				<li>{vacancy.place}</li>
 			</ul>
-			<button className='item__btn button__font'>Побачити більше</button>
+			<button className='item__btn button__font manropeFont'>
+				Побачити більше
+			</button>
 		</div>
 	)
 }
