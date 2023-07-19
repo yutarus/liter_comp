@@ -3,11 +3,21 @@
 body {
 	padding: 0;
 	margin: 0;
+	overflow: -moz-scrollbars-none;
+	-ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+	width: 0;
 }
 
 .manropeFont {
 	font-family: 'Manrope';
 	font-style: normal;
+}
+
+.pointer {
+	cursor: pointer;
 }
 
 .secondBlock__container {

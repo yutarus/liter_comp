@@ -7,7 +7,7 @@ export function SecondBlock() {
 	return (
 		<div className='secondBlock__container'>
 			<div className='vacancies__container'>
-				<h3 className='vacancyTitle title manropeFont'>Актуальні ваканції</h3>
+				<h3 className='vacancyTitle title manropeFont'>Актуальні вакансії</h3>
 				<div className='vacancies__items'>
 					{vacancies.length ? (
 						vacancies.map(vacancy => (
@@ -28,7 +28,7 @@ export function SecondBlock() {
 						</h3>
 						<p className='info__text workers__text manropeFont'>
 							У нас є <span>50%</span> працівників у Чехії; <span>40%</span>{' '}
-							працівників у Словаччині; <span>10%</span>
+							працівників у Словаччині; <span>10% </span>
 							працівників у Польщі.
 						</p>
 						<p className='info__text targets__text manropeFont'>
@@ -51,7 +51,7 @@ export function SecondBlock() {
 						<input placeholder="Ваше ім'я" type='text' />
 						<input placeholder='Введіть свій робочий email' type='text' />
 					</div>
-					<button className='form__btn button__font'>Відправити</button>
+					<button className='form__btn button__font pointer'>Відправити</button>
 				</form>
 			</div>
 		</div>

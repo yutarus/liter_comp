@@ -28,7 +28,7 @@ function VacancyItem({ vacancy }: VacacyProps) {
 				<li>{vacancy.amountWork}</li>
 				<li>{vacancy.place}</li>
 			</ul>
-			<button className='item__btn button__font manropeFont'>
+			<button className='item__btn button__font manropeFont pointer'>
 				Побачити більше
 			</button>
 		</div>
