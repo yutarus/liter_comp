@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+body {
+	padding: 0;
+	margin: 0;
+	overflow: -moz-scrollbars-none;
+	-ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+	width: 0;
+}
+
+.manropeFont {
+	font-family: 'Manrope';
+	font-style: normal;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.secondBlock__container {
+	width: 1920px;
+	height: 2560px;
+	.title {
+		font-weight: 700;
+		font-size: 64px;
+		line-height: 78px;
+		color: #2a2b2b;
+	}
+	.title__marginNone {
+		margin: 0;
+	}
+	.vacancies__container {
+		margin: 0 auto;
+		margin-top: 206px;
+		width: 1569px;
+		height: 929px;
+	}
+	.vacancyTitle {
+		text-align: center;
+	}
+	.vacancies__items {
+		margin-top: 84px;
+		width: 1569px;
+		height: 758px;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.work__container {
+		margin: 0 auto;
+		margin-top: 206px;
+		width: 1570px;
+		height: 687px;
+	}
+	.table__container {
+		margin-top: 110px;
+		width: 1570px;
+		height: 490px;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.table {
+		width: 775px;
+		height: 490px;
+		background-image: url('/public/main tabl.png');
+		background-repeat: no-repeat;
+	}
+	.comp__info {
+		width: 775px;
+		height: 475px;
+	}
+	.info__text {
+		font-weight: 600;
+		line-height: 38px;
+		font-size: 28px;
+		color: #565656;
+	}
+	.workers__text {
+		width: 603px;
+		height: 114px;
+		margin-top: 21px;
+		margin-bottom: 14px;
+	}
+	.workers__text span {
+		color: #244563;
+	}
+	.targets__text {
+		width: 603px;
+		height: 152px;
+	}
+	.form__container {
+		margin-top: 206px;
+		margin-left: 0px;
+		width: 1920px;
+		height: 541px;
+		background: #244563;
+		border-radius: 22.2322px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		.form {
+			width: 1113px;
+			height: 377px;
+			border-radius: 22.2322px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: flex-start;
+		}
+		.form__text {
+			font-weight: 700;
+			color: #f8f8f8;
+		}
+		.form__title {
+			font-size: 64px;
+			line-height: 0px;
+		}
+		.form__info {
+			font-size: 40px;
+			line-height: 37px;
+		}
+		.inputs {
+			margin-top: 48px;
+			width: 100%;
+			height: 72px;
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: space-between;
+			input {
+				box-sizing: border-box;
+				width: 534px;
+				height: 72px;
+				background: #ffffff;
+				border: 1.29845px solid rgba(185, 190, 199, 0.6);
+				box-shadow: 0px 24.6705px 32.4611px rgba(10, 10, 51, 0.04);
+				border-radius: 11.686px;
+				font-weight: 400;
+				font-size: 23.3615px;
+				line-height: 18px;
+				display: flex;
+				align-items: center;
+				color: #7c828d;
+				padding-left: 27px;
+			}
+		}
+		.form__btn {
+			margin-top: 70px;
+			width: 304px;
+			height: 71px;
+			background: #2e72b0;
+			border-radius: 12px;
+			border: none;
+		}
+	}
+}
