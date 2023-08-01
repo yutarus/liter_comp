@@ -1,0 +1,46 @@
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 283px;
+
+    h2 {
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 87px;
+        color: #2A2B2B;
+        margin-bottom: 52px;
+    }
+}
+
+.infoWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.infoItem {
+    margin-right: 40px;
+    width: 518px;
+    height: 420px;
+    
+
+    img {
+        width: 518px;
+        height: 420px;
+    }
+
+    p {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 48px;
+        color: #2A2B2B;
+        text-align: center;
+    }
+}
+
+
+

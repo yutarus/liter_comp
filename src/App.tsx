@@ -1,11 +1,25 @@
-import './App.css'
+import './App.scss'
+import Info from './Info/Info'
+import Header from './Header/Header'
+import About from './About/About'
+
+import { Suspense } from 'react'
 
 function App() {
 
+
+
   return (
-      <div>
-          <h1>hello</h1>
+    <Suspense fallback={null}>
+      <div className="App">
+        <Header />
+        <Info />
+        <About />
       </div>
+    </Suspense>
+
+
+
   )
 }
 
