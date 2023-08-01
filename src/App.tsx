@@ -1,4 +1,4 @@
-import './App.css'
+import './App.scss'
 import Info from './Info/Info'
 import Header from './Header/Header'
 import About from './About/About'
