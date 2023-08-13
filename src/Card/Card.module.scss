@@ -1,0 +1,54 @@
+.cardItem {
+	min-height: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 5px;
+	gap: 50px;
+	max-width: 425px;
+}
+.itemFooter {
+	margin-top: auto;
+}
+.itemCountry {
+	font-weight: 500;
+	font-size: 40px;
+}
+
+.itemLocation {
+	font-size: 28px;
+	font-weight: 600;
+	height: 150px;
+	overflow: hidden;
+}
+.cardWrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+// @media (max-width: 1439.98px) {
+// 	.itemCountry {
+// 		font-size: 36px;
+// 	}
+// 	.itemLocation {
+// 		font-size: 24px;
+// 	}
+// }
+
+// @media (max-width: 833.98px) {
+// 	.itemCountry {
+// 		font-size: 22px;
+// 	}
+// 	.itemLocation {
+// 		font-size: 14px;
+// 	}
+// }
+// @media (max-width: 389.98px) {
+// 	.itemCountry {
+// 		font-size: 24px;
+// 	}
+// 	.itemLocation {
+// 		font-size: 20px;
+// 	}
+// }

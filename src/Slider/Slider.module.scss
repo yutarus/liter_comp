@@ -1,0 +1,27 @@
+.slide {
+	height: 145px;
+	width: 100%;
+	position: relative;
+}
+.slide svg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+// @media (max-width: 1439.98px) {
+// 	.slide {
+// 		height: 65px;
+// 	}
+// }
+
+// @media (max-width: 833.98px) {
+// 	.slide {
+// 		height: 40px;
+// 	}
+// }
+// @media (max-width: 389.98px) {
+// }
