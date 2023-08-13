@@ -1,0 +1,32 @@
+.cardItem {
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5px;
+  gap: 50px;
+  max-width: 425px;
+}
+
+.itemFooter {
+  margin-top: auto;
+}
+
+.itemCountry {
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.itemLocation {
+  font-size: 28px;
+  font-weight: 600;
+  height: 150px;
+  overflow: hidden;
+}
+
+.cardWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}

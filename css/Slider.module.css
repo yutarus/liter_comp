@@ -1,0 +1,15 @@
+.slide {
+  height: 145px;
+  width: 100%;
+  position: relative;
+}
+
+.slide svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}

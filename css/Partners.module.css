@@ -1,0 +1,19 @@
+.Partners {
+  margin-top: 200px;
+}
+
+@media (max-width: 1439.98px) {
+  .Partners {
+    margin-top: 150px;
+  }
+}
+@media (max-width: 833.98px) {
+  .Partners {
+    margin-top: 70px;
+  }
+}
+@media (max-width: 389.98px) {
+  .Partners {
+    margin-top: 65px;
+  }
+}
